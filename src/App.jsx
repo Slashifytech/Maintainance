@@ -7,6 +7,8 @@ function App() {
       <div className="overflow-hidden">
         <Routes>
           <Route path="/" element={<Maintanance />} />
+          <Route path="/*" element={<Maintanance />} />
+
         </Routes>
       </div>
     </>
